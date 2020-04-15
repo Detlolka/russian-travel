@@ -1,0 +1,19 @@
+@import url('./__lang-link-ru/header__lang-link-ru.css');
+@import url('./__lang-link-en/header__lang-link-en.css');
+
+.header__lang-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #FFFFFF;
+  transition: 1s;
+  width: 30px;
+  height: 28px;    
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
