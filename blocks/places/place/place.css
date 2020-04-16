@@ -1,0 +1,9 @@
+.place {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, auto);
+    grid-template-rows: repeat(auto-fit, auto);
+    gap: 40px;
+    margin-top: 80px;    
+    justify-content: center;
+    grid-template-areas: "head links" "image paragraph";
+}

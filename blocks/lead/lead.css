@@ -6,7 +6,7 @@
     .lead {
         max-width: 1280px;
         margin: 0 auto;
-        background: #2A2C2F;                
+        background: #2A2C2F;                              
     }
 
     @media (max-width: 1024px) {         
@@ -55,8 +55,7 @@
 
     @media (max-width: 375px) {
 
-        .lead__title {
-            width: 100%;
+        .lead__title {            
             padding-top: 48px;
             max-width: 288px;
             max-height: 88px;
