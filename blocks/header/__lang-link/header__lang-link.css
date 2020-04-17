@@ -1,8 +1,7 @@
 @import url('./__lang-link-ru/header__lang-link-ru.css');
 @import url('./__lang-link-en/header__lang-link-en.css');
 
-.header__lang-link {
-  font-family: "Inter";
+.header__lang-link {  
   font-style: normal;
   font-weight: normal;
   font-size: 24px;

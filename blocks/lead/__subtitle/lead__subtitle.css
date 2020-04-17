@@ -1,9 +1,8 @@
-.lead__subtitle {
-    font-family: 'Inter';
+.lead__subtitle {    
     font-style: normal;
     font-weight: normal;
     font-size: 2rem;
-    line-height: 0.9;    
+    line-height: 1.15;    
     text-align: center;
     color: #FFFFFF;
     max-width: 640px;

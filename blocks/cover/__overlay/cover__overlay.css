@@ -2,18 +2,29 @@
     background-image: url("../../../images/dobaikala.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    display: block;
-    margin: auto;       
+    position: relative;
+    margin: auto;
     width: 1184px;
-    height: 784px;
-    opacity: 0.3;
+    height: 784px;    
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;  
     align-items: center;
-    text-decoration: none;         
+    text-decoration: none;    
 }
 
-.cover__overlay:hover {
-    opacity: 0.8;
+.cover__overlay::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 1s linear;
 }
+
+.cover__overlay:hover::before {
+    background: rgba(0, 0, 0, 0.8);
+}
+

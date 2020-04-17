@@ -16,7 +16,7 @@
         }
 
         .lead__subtitle {
-            margin: 32px 192px 56px;
+            margin: 32px auto 56px;            
         }
        
         .lead__image {            
@@ -34,11 +34,15 @@
     @media (max-width: 768px) {         
 
         .lead__title {                       
-            padding-top: 48px;            
+            padding-top: 3rem;
+            font-size: 12.5vw;
+                     
         }
 
         .lead__subtitle {
-            margin: 32px 64px 56px;
+            margin: 32px auto 56px;
+            font-size: 4.9vw;
+            line-height: 4.8vw;           
         }
        
         .lead__image {            
@@ -52,7 +56,7 @@
             margin-left: 24px;
         }
     }
-
+/*
     @media (max-width: 375px) {
 
         .lead__title {            
@@ -60,13 +64,13 @@
             max-width: 288px;
             max-height: 88px;
             font-weight: 900;
-            font-size: 2.2rem;
+            font-size: 4vh;
             line-height: 1.1;            
         }
 
         .lead__subtitle {
             margin: 16px auto 40px;
-            font-size: 1rem;
+            font-size: 5vw;
             line-height: 1.2;
         }
 
@@ -111,4 +115,5 @@
             margin-left: 16px;
         }
 
-    }
+    } 
+   
