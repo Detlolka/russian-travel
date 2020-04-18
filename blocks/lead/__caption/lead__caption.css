@@ -11,3 +11,17 @@
     margin-left: 148px;
     margin-top: 8px;          
 }
+
+@media (max-width: 1024px) {       
+  
+    .lead__caption {
+        margin-left: 48px;
+    }
+}
+
+@media (max-width: 768px) {       
+     
+    .lead__caption {
+        margin-left: 24px;
+    }
+}

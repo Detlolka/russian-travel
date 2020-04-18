@@ -7,3 +7,21 @@
     object-fit: cover;
     object-position: center;
 }
+
+@media (max-width: 1024px) {       
+       
+    .lead__image {            
+        max-width: 928px;
+        max-height: 580px;     
+        margin: 0 auto;            
+    }    
+}
+
+@media (max-width: 768px) {        
+      
+    .lead__image {            
+        max-width: 768px;
+        max-height: 480px;
+        margin: 0px auto;
+    }    
+}

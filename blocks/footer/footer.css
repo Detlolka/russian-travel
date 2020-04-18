@@ -11,3 +11,32 @@
     background: #2A2C2F;
 }
 
+@media (max-width: 754px) {
+
+    .footer__columns {       
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0px;
+        align-items: flex-start;
+        margin-left: 16px;
+    }
+
+    .footer__links {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__column-item {
+        margin-top: 32px;
+    }
+
+    .footer__column-link {
+        font-size: 24px;
+        margin-top: 64px;
+    }
+
+    .footer__column_content_copyright {
+        justify-self: start;;
+    }
+   
+}

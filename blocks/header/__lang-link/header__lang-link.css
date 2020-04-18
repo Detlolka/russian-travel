@@ -1,7 +1,7 @@
 @import url('./__lang-link-ru/header__lang-link-ru.css');
 @import url('./__lang-link-en/header__lang-link-en.css');
 
-.header__lang-link {  
+.header__lang-link {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -10,9 +10,29 @@
   color: #FFFFFF;
   transition: 1s;
   width: 30px;
-  height: 28px;    
+  height: 28px;
 }
 
 .header__lang-link:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
+
+@media (max-width: 375px) {
+
+  .header__lang-link {
+    width: 22px;
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+
+    .header__lang-link {
+      width: 22px;
+      height: 24px;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }

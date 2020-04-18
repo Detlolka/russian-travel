@@ -9,3 +9,19 @@
     max-height: 72px;
     margin: 32px auto 64px;
 }
+
+@media (max-width: 1024px) {    
+   
+    .lead__subtitle {
+        margin: 32px auto 56px;            
+    }    
+}
+
+@media (max-width: 768px) {   
+          
+    .lead__subtitle {
+        margin: 32px auto 56px;
+        font-size: 4.9vw;
+        line-height: 4.8vw;           
+    }    
+}

@@ -9,53 +9,7 @@
         background: #2A2C2F;                              
     }
 
-    @media (max-width: 1024px) {         
-
-        .lead__title {            
-            padding-top: 48px;
-        }
-
-        .lead__subtitle {
-            margin: 32px auto 56px;            
-        }
-       
-        .lead__image {            
-            max-width: 928px;
-            max-height: 580px;     
-            margin: 0 auto;            
-        }
-
-        .lead__caption {
-            margin-left: 48px;
-        }
-    }
-
     
-    @media (max-width: 768px) {         
-
-        .lead__title {                       
-            padding-top: 3rem;
-            font-size: 12.5vw;
-                     
-        }
-
-        .lead__subtitle {
-            margin: 32px auto 56px;
-            font-size: 4.9vw;
-            line-height: 4.8vw;           
-        }
-       
-        .lead__image {            
-            max-width: 768px;
-            max-height: 480px;
-            margin: 0px auto;            
-           
-        }
-
-        .lead__caption {
-            margin-left: 24px;
-        }
-    }
 /*
     @media (max-width: 375px) {
 

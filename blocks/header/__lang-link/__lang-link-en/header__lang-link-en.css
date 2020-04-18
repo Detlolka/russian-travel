@@ -1,6 +1,33 @@
 .header__lang-link-en {
     text-decoration: none;
     margin-right: 48px;
-    margin-left: 18px;    
+    margin-left: 18px;
 }
 
+@media (max-width: 1024px) {
+
+    .header__lang-lin-en {
+        margin-right: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header__lang-lin-en {
+        margin-right: 24px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .header__lang-link-en {
+        margin-right: 18px;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .header__lang-link-en {
+        margin-right: 16px;
+    }
+}
