@@ -1,9 +1,5 @@
-.place__image {
-    max-width: 460px;
-    max-height: 460px;
+.place__image {  
     width: 100%;
-    object-fit: cover;
-    grid: image;
-    align-self: start;
-    justify-self: end;       
+    height: auto;    
+    grid: image;         
 }

@@ -6,9 +6,34 @@
     text-align: center;
     color: #FFFDFD;
     max-width: 560px;
-    max-height: 152px;
-    margin-bottom: 32px;
+    max-height: 152px;    
     z-index: 1;
-      
-    
+    margin: 0 auto;   
+}
+
+@media (max-width: 650px) {
+    .cover__title {
+        font-size: 52px;
+        line-height: 54px;
+    }   
+}
+
+@media (max-width: 550px) {
+    .cover__title {
+        font-size: 48px;
+        line-height: 49px;
+        max-width: 480px;
+        max-height: 115px;
+    }   
+}
+
+
+
+@media (max-width: 376px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 288px;
+        max-height: 70px;
+    }    
 }

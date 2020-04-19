@@ -3,10 +3,34 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;    
-    color: #FFFFFF;
-    max-width: 460px;
-    max-height: 152px;                
+    color: #FFFFFF;                  
     grid-area: head;       
-    margin: 0;       
+    margin: 0;
+    align-self: end;
+    justify-self: start;     
+}
+
+@media (max-width: 872px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 720px) {
+    .place__title {
+        align-self: end;
+    }
+}
+
+@media (max-width: 376px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        justify-self: center;
+        padding-left: 16px;
+        padding-right: 16px;        
+    }
 }
 
