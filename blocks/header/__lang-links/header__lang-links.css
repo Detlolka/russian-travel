@@ -1,19 +1,39 @@
 @import url('../__lang-link/header__lang-link.css');
+@import url('../__lang-link/__lang-link_active/header__lang-link_active.css');
+
+
 
 .header__lang-links {
-    margin-top: 46px;
+        margin-top: 46px;
+        margin-right: 48px;
+}
+
+@media (max-width: 1024px) {
+
+    .header__lang-links {
+        margin-right: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header__lang-links {
+        margin-right: 24px;
+    }
 }
 
 @media (max-width: 375px) {
 
     .header__lang-links {
         margin-top: 32px;
+        margin-right: 18px;
     }
 }
 
 @media (max-width: 320px) {
-
-    .header__lang-links {        
+    
+    .header__lang-links {
+        margin-right: 16px;
         margin-top: 30px;
     }
 }

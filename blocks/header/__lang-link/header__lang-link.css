@@ -8,9 +8,9 @@
   line-height: 28px;
   text-align: right;
   color: #FFFFFF;
-  transition: 1s;
-  width: 30px;
-  height: 28px;
+  transition: 1s;  
+  text-decoration: none;
+  margin-right: 18px;
 }
 
 .header__lang-link:hover {

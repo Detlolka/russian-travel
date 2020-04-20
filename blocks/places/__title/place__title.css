@@ -27,8 +27,7 @@
 @media (max-width: 376px) {
     .place__title {
         font-size: 32px;
-        line-height: 35px;
-        justify-self: center;
+        line-height: 35px;        
         padding-left: 16px;
         padding-right: 16px;        
     }

@@ -6,8 +6,7 @@
     color: #FFFFFF;
     margin-left: 148px;
     margin-top: 40px;
-    max-width: 690px;
-    max-height: 208px;    
+    max-width: 690px;        
 }
 
 @media (max-width: 1024px) {   
@@ -21,8 +20,7 @@
    
     .intro__text {
         margin-left: 24px;
-        max-width: calc(90% - 48px);
-        max-height: 208px;
+        max-width: calc(90% - 48px);        
         font-size: 2.1vw;
         line-height: 1.5;        
     }    
@@ -32,8 +30,7 @@
     
     .intro__text {
         margin-left: 24px;
-        max-width: calc(90% - 18px);
-        max-height: 208px;
+        max-width: calc(90% - 18px);        
         font-size: 2.3vw;
         line-height: 1.4;        
     }    
@@ -42,9 +39,10 @@
 @media (max-width: 425px) {    
 
     .intro__text {
-        max-width: 300px;
-        max-height: 540px;
+        max-width: 300px;        
         margin-left: 16px;
         font-size: 1rem;
+        line-height: 26px;
     }    
 }
+

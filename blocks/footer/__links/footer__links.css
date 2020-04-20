@@ -3,3 +3,11 @@
     display: flex;
     padding-left: 0;      
 }
+
+@media (max-width: 754px) { 
+
+    .footer__links {
+        flex-direction: column;
+        justify-content: center;
+    }     
+}
