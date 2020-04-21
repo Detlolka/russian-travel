@@ -2,7 +2,6 @@
 @import url('./__tittle/cover__title.css');
 @import url('./__subtitle/cover__subtitle.css');
 @import url('./__link/cover__link.css');
-@import url('./__text/cover__text.css');
 
 .cover {
     background-image: url("../../images/dobaikala.jpg");    

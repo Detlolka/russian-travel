@@ -20,7 +20,16 @@
           
     .lead__subtitle {
         margin: 32px auto 56px;
+        font-size: 30px;
+        line-height: 36px;           
+    }    
+}
+
+@media (max-width: 680px) {   
+          
+    .lead__subtitle {        
         font-size: 4.9vw;
         line-height: 4.8vw;           
     }    
 }
+
